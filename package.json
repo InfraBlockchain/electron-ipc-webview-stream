@@ -1,0 +1,33 @@
+{
+  "name": "electron-ipc-webview-stream",
+  "version": "0.5.1",
+  "description": "Duplex stream over IPC between the webview and the host renderer process",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/YosemiteLabs/electron-ipc-webview-stream.git"
+  },
+  "keywords": [
+    "electron",
+    "stream",
+    "webview",
+    "duplex",
+    "ipc",
+    "host-renderer",
+    "readable",
+    "writable"
+  ],
+  "author": "Jonghoon Park",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YosemiteLabs/electron-ipc-webview-stream/issues"
+  },
+  "homepage": "https://github.com/YosemiteLabs/electron-ipc-webview-stream#readme",
+  "dependencies": {
+    "buffer-json": "^1.0.0",
+    "is-electron-renderer": "^2.0.1"
+  }
+}
